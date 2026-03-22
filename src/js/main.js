@@ -75,22 +75,17 @@
     elements.forEach((el) => observer.observe(el));
   }
 
-  // --- Contact form (mailto fallback) ---
-  function setupContactForm() {
-    const form = document.getElementById("contactForm");
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-
-      const name = document.getElementById("name").value;
-      const email = document.getElementById("email").value;
-      const message = document.getElementById("message").value;
-
-      const subject = encodeURIComponent(`[TechnoTP] Message de ${name}`);
-      const body = encodeURIComponent(
-        `Nom: ${name}\nCourriel: ${email}\n\n${message}`
-      );
-
-      window.location.href = `mailto:info@technotp.com?subject=${subject}&body=${body}`;
+  // --- Email obfuscation ---
+  function deobfuscateEmails() {
+    document.querySelectorAll(".obf-email").forEach((el) => {
+      const encoded = el.getAttribute("data-e");
+      if (!encoded) return;
+      const email = atob(encoded);
+      el.href = "mailto:" + email;
+      // Update visible text if it contains the [at] placeholder
+      if (el.textContent.includes("[at]")) {
+        el.textContent = email;
+      }
     });
   }
 
@@ -113,8 +108,8 @@
     // Scroll animations
     setupScrollAnimations();
 
-    // Contact form
-    setupContactForm();
+    // Email obfuscation
+    deobfuscateEmails();
 
     // Set initial language
     setLanguage("fr");
