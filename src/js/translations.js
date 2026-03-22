@@ -7,7 +7,7 @@ const translations = {
     nav_contact: "Contact",
 
     // Hero
-    hero_tagline: "Services contractuels en génie physique et ingénierie",
+    hero_tagline: "Services contractuels en technologie du génie physique",
     hero_subtitle: "Innover. Intégrer. Réussir.",
     hero_cta: "Nous joindre",
     hero_services_cta: "Nos services",
@@ -15,9 +15,9 @@ const translations = {
     // About
     about_title: "Qui sommes-nous",
     about_intro:
-      "TechnoTP est une entreprise canadienne de services contractuels fondée à Sherbrooke, QC, par deux technologues certifiés en génie physique, diplômés du Cégep de La Pocatière et poursuivant des études universitaires à l'Université de Sherbrooke.",
+      "TechnoTP est une entreprise canadienne de services contractuels fondée à Sherbrooke, QC, par deux technologues en génie physique, diplômés du Cégep de La Pocatière et poursuivant des études universitaires à l'Université de Sherbrooke.",
     about_intro2:
-      "Notre expertise complémentaire couvre le spectre complet de la physique appliquée et de l'ingénierie — de l'optique et la spectroscopie à la robotique, l'automatisation et le développement logiciel.",
+      "Notre expertise complémentaire couvre le spectre complet de la physique appliquée — de l'optique et la spectroscopie à la robotique, l'automatisation et le développement logiciel.",
 
     // Édouard
     edouard_name: "Édouard Morin",
@@ -101,7 +101,7 @@ const translations = {
     nav_contact: "Contact",
 
     // Hero
-    hero_tagline: "Contract Services in Physical Engineering & Technology",
+    hero_tagline: "Contract Services in Physical Engineering Technology",
     hero_subtitle: "Innovate. Integrate. Succeed.",
     hero_cta: "Contact Us",
     hero_services_cta: "Our Services",
@@ -109,9 +109,9 @@ const translations = {
     // About
     about_title: "About Us",
     about_intro:
-      "TechnoTP is a Canadian contract services company based in Sherbrooke, QC, co-founded by two certified physical engineering technologists, both graduates of Cégep de La Pocatière and currently pursuing university degrees at Université de Sherbrooke.",
+      "TechnoTP is a Canadian contract services company based in Sherbrooke, QC, co-founded by two physical engineering technologists, both graduates of Cégep de La Pocatière and currently pursuing university degrees at Université de Sherbrooke.",
     about_intro2:
-      "Our complementary expertise covers the full spectrum of applied physics and engineering — from optics and spectroscopy to robotics, automation, and software development.",
+      "Our complementary expertise covers the full spectrum of applied physics — from optics and spectroscopy to robotics, automation, and software development.",
 
     // Édouard
     edouard_name: "Édouard Morin",
